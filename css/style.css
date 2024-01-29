@@ -1,0 +1,218 @@
+body{
+  background-image: url(../images/mybackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.nav {
+  height: 50px;
+  background: whitesmoke;
+  width: auto;
+}
+
+.nav div {
+  display: flex;
+  position: absolute;
+  left: 9;
+  padding: 2px;
+  font-size: 20px;
+  color: blue;
+}
+.nav img{
+  width: 40px;
+  height: 40px;
+
+}
+
+.nav ul {
+  position: absolute;
+  right: 5px;
+}
+
+.nav ul li {
+  display: inline-block;
+  background-color: whitesmoke;
+  border: 1px solid wheat;
+  border-radius: 50%;
+  padding: 5px;
+ 
+}
+
+.nav ul li a {
+  color: blue;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.home .text-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  color: aliceblue;
+}
+
+.home .text-container h1{
+  font-size: 100px;
+
+}
+.home .text-container h2{
+  font-size: 50px;
+}
+
+
+.about .about-content {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-flex;
+}
+
+.about .about-content div{
+  margin: 50px;
+  width: 500px;
+  text-align:center;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+.about .about-content div img{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  
+}
+.about .about-content h1{
+  text-align: center;
+  color: aqua;
+}
+
+.about .about-content p {
+  text-align: justify;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:white ;
+}
+
+.services .services-content{
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+
+.services .services-content h1{
+  font-family: 'Courier New', Courier, monospace;
+  color: aqua;
+}
+
+.services-content .card-container ul{
+  padding: 0;
+}
+
+.services-content .card-container ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+  width: 300px;
+}
+
+.services-content .card-container ul li img{
+  border-radius: 5px;
+}
+
+.services-content .card-container ul li h3{
+  color: yellow;
+}
+
+.services-content .card-container ul li p{
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.contact .contact-content {
+  margin: 80px auto 0 auto;
+  text-align: center;
+  color: azure;
+}
+
+.contact .contact-content h1{
+  font-family: 'Courier New', Courier, monospace;
+  color: aqua;
+}
+
+.contact .contact-content .address-holder{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: xx-large;
+}
+
+.social-icon {
+  color: white;
+  transition: color 0.2s;
+  text-decoration: none;
+  margin: 0 30px;
+  font-size: 40px;
+}
+
+#Footer{
+  color: aliceblue;
+  text-align: center;
+}
+
+#fb:hover {
+color: blue;
+font-size: 45px;
+}
+
+#yutub:hover {
+  color: red;
+  font-size: 45px;
+}
+
+#wasp:hover {
+color: greenyellow;
+font-size: 45px;
+}
+
+#lnk:hover {
+  color: blue;
+font-size: 45px;
+}
+
+@media all and (max-width: 768px) {
+
+  .home .text-container h1{
+    font-size: 50px;
+  }
+  .home .text-container h2{
+    font-size: 25px;
+  }
+
+  .about .about-content {
+    width: 500px;
+    font-size: 10px;
+  }
+  .about .about-content div{
+    margin: 8px;
+    width: 200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
